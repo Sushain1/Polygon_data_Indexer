@@ -1,4 +1,5 @@
-git init
-echo "target/" >> .gitignore
-echo "polygon_indexer.db" >> .gitignore
-echo ".env" >> .gitignore
+target/
+.env
+polygon_indexer.db
+polygon_indexer.db-shm
+polygon_indexer.db-wal
