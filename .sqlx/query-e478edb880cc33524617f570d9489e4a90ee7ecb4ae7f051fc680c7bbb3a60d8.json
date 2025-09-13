@@ -1,0 +1,32 @@
+{
+  "db_name": "SQLite",
+  "query": "SELECT tx_hash, block_number, value FROM transactions ORDER BY block_number DESC LIMIT 5",
+  "describe": {
+    "columns": [
+      {
+        "name": "tx_hash",
+        "ordinal": 0,
+        "type_info": "Text"
+      },
+      {
+        "name": "block_number",
+        "ordinal": 1,
+        "type_info": "Int64"
+      },
+      {
+        "name": "value",
+        "ordinal": 2,
+        "type_info": "Float"
+      }
+    ],
+    "parameters": {
+      "Right": 0
+    },
+    "nullable": [
+      false,
+      false,
+      false
+    ]
+  },
+  "hash": "e478edb880cc33524617f570d9489e4a90ee7ecb4ae7f051fc680c7bbb3a60d8"
+}

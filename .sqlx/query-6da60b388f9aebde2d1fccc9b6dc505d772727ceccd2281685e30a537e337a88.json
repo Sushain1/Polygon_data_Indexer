@@ -1,0 +1,12 @@
+{
+  "db_name": "SQLite",
+  "query": "INSERT INTO net_flows (id, timestamp, cumulative_net_flow) VALUES (1, ?, ?)\n         ON CONFLICT(id) DO UPDATE SET cumulative_net_flow = ?, timestamp = ?",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Right": 4
+    },
+    "nullable": []
+  },
+  "hash": "6da60b388f9aebde2d1fccc9b6dc505d772727ceccd2281685e30a537e337a88"
+}
